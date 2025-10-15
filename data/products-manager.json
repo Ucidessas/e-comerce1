@@ -1,0 +1,176 @@
+{
+  "INSTRUCCIONES": "Este archivo JSON permite gestionar fácilmente los comercios y productos de tu app. Lee PRODUCT-MANAGER-GUIDE.md para instrucciones detalladas.",
+  
+  "comercios": [
+    {
+      "id": "business-1",
+      "nombre": "Panadería San Miguel",
+      "categoria": "Panadería",
+      "whatsapp": "+1234567890",
+      "descripcion_corta": "Pan fresco artesanal horneado diariamente",
+      "descripcion_larga": "🍞 Panadería familiar con más de 30 años de experiencia. Ofrecemos el mejor pan artesanal de la zona, horneado cada 4 horas con ingredientes 100% naturales. ¡Ven y prueba nuestras especialidades!",
+      "direccion": "Calle Principal 123",
+      "horario": "6:00 AM - 8:00 PM",
+      "distancia": "0.8 km",
+      "tiempo_entrega": "15-25 min",
+      "calificacion": 4.8,
+      "cantidad_resenas": 124,
+      "esta_abierto": true,
+      "es_promocionado": true,
+      "es_nuevo": false,
+      "imagen_principal": "https://images.unsplash.com/photo-1608220874995-aa3e5301c676?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1608220874995-aa3e5301c676?w=1080",
+        "https://images.unsplash.com/photo-1663904460424-91895028aa9e?w=1080",
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1080"
+      ]
+    },
+    {
+      "id": "business-2",
+      "nombre": "Verdulería La Plaza",
+      "categoria": "Frutas y Verduras",
+      "whatsapp": "+1234567891",
+      "descripcion_corta": "Frutas y verduras frescas todos los días",
+      "descripcion_larga": "🥬 Los productos más frescos directo del campo. Trabajamos con productores locales para garantizar la máxima calidad y frescura. ¡Productos orgánicos certificados disponibles!",
+      "direccion": "Av. Central 456",
+      "horario": "7:00 AM - 7:00 PM",
+      "distancia": "1.2 km",
+      "tiempo_entrega": "20-30 min",
+      "calificacion": 4.7,
+      "cantidad_resenas": 89,
+      "esta_abierto": true,
+      "es_promocionado": false,
+      "es_nuevo": true,
+      "imagen_principal": "https://images.unsplash.com/photo-1748342319942-223b99937d4e?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1748342319942-223b99937d4e?w=1080",
+        "https://images.unsplash.com/photo-1750918061368-0c4eb884a9da?w=1080",
+        "https://images.unsplash.com/photo-1680835011462-d30471faf688?w=1080"
+      ]
+    },
+    {
+      "id": "business-3",
+      "nombre": "Café Central",
+      "categoria": "Bebidas",
+      "whatsapp": "+1234567892",
+      "descripcion_corta": "El mejor café de la ciudad",
+      "descripcion_larga": "☕ Tostamos nuestros granos diariamente para ofrecerte el café más fresco. Especialidades de todo el mundo preparadas por baristas expertos. ¡También ofrecemos cursos de barismo!",
+      "direccion": "Plaza Central 789",
+      "horario": "6:30 AM - 10:00 PM",
+      "distancia": "0.5 km",
+      "tiempo_entrega": "10-20 min",
+      "calificacion": 4.9,
+      "cantidad_resenas": 156,
+      "esta_abierto": true,
+      "es_promocionado": true,
+      "es_nuevo": false,
+      "imagen_principal": "https://images.unsplash.com/photo-1642647916129-3909c75c0267?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1642647916129-3909c75c0267?w=1080",
+        "https://images.unsplash.com/photo-1650100458608-824a54559caa?w=1080"
+      ]
+    }
+  ],
+
+  "productos": [
+    {
+      "id": "product-1",
+      "nombre": "Pan Integral Artesanal",
+      "descripcion": "Pan integral hecho con harina orgánica, semillas de girasol y miel natural. Horneado fresco cada mañana con masa madre de 48 horas.",
+      "categoria": "Panadería",
+      "precio": 4.50,
+      "precio_original": 5.00,
+      "id_comercio": "business-1",
+      "calificacion": 4.8,
+      "cantidad_resenas": 45,
+      "en_stock": true,
+      "tipo": "promotion",
+      "es_oferta_flash": true,
+      "es_exclusivo": false,
+      "es_destacado": false,
+      "es_nuevo": false,
+      "es_organico": false,
+      "descuento": 10,
+      "valido_hasta": "2024-01-31",
+      "imagen_principal": "https://images.unsplash.com/photo-1663904460424-91895028aa9e?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1663904460424-91895028aa9e?w=1080",
+        "https://images.unsplash.com/photo-1608220874995-aa3e5301c676?w=1080"
+      ]
+    },
+    {
+      "id": "product-2",
+      "nombre": "Croissants Franceses",
+      "descripcion": "Auténticos croissants franceses con mantequilla artesanal. Masa hojaldrada perfecta, crujientes por fuera y suaves por dentro.",
+      "categoria": "Panadería",
+      "precio": 2.50,
+      "precio_original": null,
+      "id_comercio": "business-1",
+      "calificacion": 4.9,
+      "cantidad_resenas": 32,
+      "en_stock": true,
+      "tipo": "trending",
+      "es_oferta_flash": false,
+      "es_exclusivo": false,
+      "es_destacado": true,
+      "es_nuevo": false,
+      "es_organico": false,
+      "descuento": null,
+      "valido_hasta": null,
+      "imagen_principal": "https://images.unsplash.com/photo-1608220874995-aa3e5301c676?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1608220874995-aa3e5301c676?w=1080"
+      ]
+    },
+    {
+      "id": "product-3",
+      "nombre": "Tomates Frescos (1kg)",
+      "descripcion": "Tomates maduros cosechados en el día. Perfectos para ensaladas, salsas y cocción. Cultivados sin pesticidas dañinos.",
+      "categoria": "Frutas y Verduras",
+      "precio": 5.90,
+      "precio_original": null,
+      "id_comercio": "business-2",
+      "calificacion": 4.7,
+      "cantidad_resenas": 32,
+      "en_stock": true,
+      "tipo": "regular",
+      "es_oferta_flash": false,
+      "es_exclusivo": false,
+      "es_destacado": false,
+      "es_nuevo": false,
+      "es_organico": true,
+      "descuento": null,
+      "valido_hasta": null,
+      "imagen_principal": "https://images.unsplash.com/photo-1750918061368-0c4eb884a9da?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1750918061368-0c4eb884a9da?w=1080",
+        "https://images.unsplash.com/photo-1748342319942-223b99937d4e?w=1080"
+      ]
+    },
+    {
+      "id": "product-4",
+      "nombre": "Café Premium Molido (500g)",
+      "descripcion": "Mezcla exclusiva de granos arábica tostados artesanalmente. Notas de chocolate y caramelo con final suave y aromático.",
+      "categoria": "Bebidas",
+      "precio": 12.99,
+      "precio_original": null,
+      "id_comercio": "business-3",
+      "calificacion": 4.9,
+      "cantidad_resenas": 78,
+      "en_stock": true,
+      "tipo": "trending",
+      "es_oferta_flash": false,
+      "es_exclusivo": false,
+      "es_destacado": false,
+      "es_nuevo": true,
+      "es_organico": false,
+      "descuento": null,
+      "valido_hasta": null,
+      "imagen_principal": "https://images.unsplash.com/photo-1650100458608-824a54559caa?w=1080",
+      "imagenes_galeria": [
+        "https://images.unsplash.com/photo-1650100458608-824a54559caa?w=1080",
+        "https://images.unsplash.com/photo-1642647916129-3909c75c0267?w=1080"
+      ]
+    }
+  ]
+}
